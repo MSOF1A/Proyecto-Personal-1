@@ -1,0 +1,349 @@
+.navbarcolor{
+    background-color: #FFAFCC;
+    height:80px;
+    width: 1420px;
+    position: absolute;
+}
+.navar{
+    width: 150px;
+}
+.navbar-brand h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    
+}
+.logo img{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 150px;
+    top: 5px;
+}
+.t h4{
+    color: black;
+    font-family: 'Sofia', cursive;
+    position: absolute;
+    top: 25px;
+    left: 300px;
+}
+.t1 h4{
+    color: black;
+    font-family: 'Sofia', cursive;
+    position: absolute;
+    left: 400px;
+    top: 25px;
+}
+
+.tarjeta1 {
+    position: absolute;
+    left: 65px;
+    top: 120px;
+    width: 300px;
+}
+.card:hover{
+    transform: translateY(-3%);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+}
+.card-body a{
+ text-decoration: none;
+ color: white;
+ font-size: 30px;
+ position: absolute;
+ top:560px;
+ left: 85px;
+ font-family: 'Pacifico', cursive;
+}
+.card-body h5{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.card-body p{
+    font-family: 'Sofia', cursive;
+    font-size: 20px;
+}
+.card-body{
+    background-color: #cdb4db;
+}
+.tarjeta2{
+    position: absolute;
+    left: 550px;
+    top: 120px;
+    width: 300px;
+}
+.tarjeta2 img{
+    height: 373px;
+}
+.tarjeta3{
+    position: absolute;
+    left: 1000px;
+    top: 118px;
+    top: 120px;
+    width: 300px;
+}
+.tarjeta3 img{
+    height: 373px;
+}
+.tarjeta4 {
+    position: absolute;
+    left: -312%;
+    top: 650px;
+    width: 300px;
+}
+.tarjeta5{
+    position: absolute;
+    left: -150%;
+    top: 650px;
+    width: 300px;
+}
+.tarjeta5 img{
+    height: 373px;
+}
+.tarjeta6{
+    position: absolute;
+    left: 0%;
+    top: 650px;
+    width: 300px;
+}
+.tarjeta6 img{
+    height: 373px;
+}
+
+.footer{
+    width: 1422px;
+    height: 275px;
+    position: absolute;
+    top: 1290px;
+    background-color: #ffc8dd;
+    left: -333%;
+}
+.footer h2{
+    font-family: 'Dancing Script', cursive;
+    left: 10px;
+    font-size: 40px;
+    position: absolute;
+    top: 5px;
+}
+.footer h3{
+    font-family: 'Pacifico', cursive;
+    left: 100px;
+    font-size: 20px;
+    position: absolute;
+    top: 60px;
+}
+.footer p{
+    font-family: 'Sofia', cursive;
+    left: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+}
+.footer a{
+    position: absolute;
+    color: black;
+    border-color: #000000;
+    top: 220px;
+    font-size: 25px;
+    left: 95px;
+    font-family: 'Sofia', cursive;
+}
+
+@media (min-width: 180px ) and (max-width: 453px ){
+    .navbarcolor{
+        background-color: #FFAFCC;
+        height:80px;
+        width: 435px;
+        position: absolute;
+    }
+    .t h4{
+        color: black;
+        font-family: 'Sofia', cursive;
+        position: absolute;
+        top: 25px;
+        left: 290px;
+    }
+    .t1 h4{
+        color: black;
+        font-family: 'Sofia', cursive;
+        position: absolute;
+        left: 280px;
+        top: 50px;
+    }
+    .tarjeta1 {
+        position: absolute;
+        left: 45px;
+        top: 520px;
+        width: 350px;
+    }
+    .card:hover{
+        transform: translateY(-3%);
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    }
+    .card-body a{
+     text-decoration: none;
+     color: white;
+     font-size: 25px;
+     position: absolute;
+     top:600px;
+     left: 120px;
+    }
+    .card-body{
+        background-color: #cdb4db;
+    }
+    .tarjeta2{
+        position: absolute;
+        left: 45px;
+        top: 1200px;
+        width: 350px;
+    }
+    .tarjeta2 a{
+        text-decoration: none;
+     color: white;
+     font-size: 25px;
+     position: absolute;
+     top:520px;
+     left: 120px;
+    }
+    .tarjeta2 img{
+        height: 360px;
+    }
+    .tarjeta3{
+        position: absolute;
+        left: 45px;
+        top: 1800px;
+        width: 350px;
+    }
+    .tarjeta3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top:520px;
+        left: 120px;
+    }
+    .tarjeta3 img{
+        height: 360px;
+    }
+    .card-body h5{
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+    }
+    .card-body p{
+        font-family: 'Sofia', cursive;
+        font-size: 20px;
+    }
+    .footer{
+        width: 435px;
+        height: 275px;
+        position: absolute;
+        top: 2400px;
+        background-color: #ffc8dd;
+    }
+    .footer h1{
+        font-family: 'Pacifico', cursive;
+        left: 10px;
+        font-size: 25px;
+        position: absolute;
+        top:35px;
+    }
+}
+
+@media (min-width: 456px ) and (max-width: 683px ){
+    .navbarcolor{
+        background-color: #FFAFCC;
+        height:80px;
+        width: 525px;
+        position: absolute;
+    }
+    .t h4{
+        color: black;
+        font-family: 'Sofia', cursive;
+        position: absolute;
+        top: 25px;
+        left: 370px;
+    }
+    .t1 h4{
+        color: black;
+        font-family: 'Sofia', cursive;
+        position: absolute;
+        left: 370px;
+        top: 50px;
+    }
+
+    .tarjeta1 {
+        position: absolute;
+        left: 100px;
+        top: 520px;
+        width: 350px;
+    }
+    .card:hover{
+        transform: translateY(-3%);
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    }
+    .card-body a{
+     text-decoration: none;
+     color: white;
+     font-size: 25px;
+     position: absolute;
+     top:600px;
+     left: 120px;
+    }
+    .card-body{
+        background-color: #cdb4db;
+    }
+    .tarjeta2{
+        position: absolute;
+        left: 100px;
+        top: 1200px;
+        width: 350px;
+    }
+    .tarjeta2 a{
+        text-decoration: none;
+     color: white;
+     font-size: 25px;
+     position: absolute;
+     top:520px;
+     left: 120px;
+    }
+    .tarjeta2 img{
+        height: 360px;
+    }
+    .tarjeta3{
+        position: absolute;
+        left: 100px;
+        top: 1800px;
+        width: 350px;
+    }
+    .tarjeta3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top:520px;
+        left: 120px;
+    }
+    .tarjeta3 img{
+        height: 360px;
+    }
+    .card-body h5{
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+    }
+    .card-body p{
+        font-family: 'Sofia', cursive;
+        font-size: 20px;
+    }
+    .footer{
+        width: 525px;
+        
+        position: absolute;
+        top: 2400px;
+        background-color: #ffc8dd;
+    }
+    .footer h1{
+        font-family: 'Pacifico', cursive;
+        left: 10px;
+        font-size: 25px;
+        position: absolute;
+        top:35px;
+    }
+}
