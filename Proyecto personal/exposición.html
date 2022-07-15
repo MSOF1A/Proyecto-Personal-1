@@ -23,6 +23,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="botonVentana">
+    <button class="btn btn-succes" data-toggle="modal" data-target="#botonVentana">
+      Abrir Ventana modal
+    </button>
+  
+  </div>
+
+  <div class="modal" id="botonVentana" tabindex="-1" role="dialog" aria-labelledby="tituloVentana" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 id="tituloVentana"> Titulo de la ventana</h5>
+          <button class="close" data-dismiss="modal" aria-label="cerrar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="alert alert-succes">
+            <h6> <strong>tus datos se han guardado exitosamente</strong></h6>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-warning" type="button" data-dismiss="modal">
+          cerrar
+        </button>
+        <button class="btn btn-succes" type="button">
+          Aceptar
+
+        </button>
+      </div>
+
+    </div>
+
+  </div>
     <nav class="navbar navbar-expand-lg navbarcolor">
         <div class="container-fluid">
             <div class="logo">
